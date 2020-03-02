@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Corben", cursive;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #636e72;
+}
+
+.top-container {
+  height: 160vh;
+  background-image: url(./img/glasses.jpg);
+  background-size: cover;
+}
+
+.title {
+  height: 230px;
+  font-size: 10em;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.wrap {
+  width: 100%;
+}
+
+.about {
+  height: 560px;
+  overflow: hidden;
+}
+.about-img {
+  width: 400px;
+  display: inline-block;
+}
+
+.disc {
+  font-family: "Sawarabi Gothic";
+}
+
+.song {
+  height: 100vh;
+}
+
+.text {
+  display: block;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  overflow: hidden;
+}
+.text::after {
+  content: url(./img/line.png);
+  display: block;
+  margin-top: -50px;
+}
+
+.profile {
+  border-radius: 20px;
+  background-color: #3c5a99;
+}
+
+.name {
+  padding-top: 30px;
+  font-size: 5.3em;
+  display: inline-block;
+}
+.intro .jin-img {
+  position: absolute;
+  top: 34px;
+  left: 150px;
+  height: 100px;
+  width: 110px;
+  border-radius: 100%;
+  border: 2px solid #655c72;
+}
+.intro .hotaru-img {
+  position: absolute;
+  top: 34px;
+  left: 310px;
+  height: 100px;
+  width: 110px;
+  border-radius: 100%;
+  border: 2px solid #655c72;
+}
+.intro {
+  position: relative;
+  font-family: "Sawarabi Gothic";
+}
+
+.sns p a {
+  color: white;
+  transition: 0.2s;
+}
+
+.sns p .fa-twitter:hover {
+  text-decoration: none;
+  color: #1da1f2;
+}
+.sns p .fa-facebook:hover {
+  text-decoration: none;
+  color: #3c5a99;
+}
+.sns p .fa-instagram:hover {
+  text-decoration: none;
+  background: -webkit-linear-gradient(0deg, #4c64d3, #cf2e92, #f26939, #ffdd83);
+  background-clip: text;
+  border-radius: 5px;
+}
+footer {
+  color: white;
+  height: 50px;
+  background-color: rgb(59, 57, 57);
+  border-top: 2px solid #61e7e1;
+  text-align: center;
+}
+footer a {
+  color: #b1abab;
+  transition: .5s;
+}
+footer a:hover {
+  color: #7ed6df;
+}
