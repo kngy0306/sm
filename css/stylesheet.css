@@ -7,10 +7,6 @@
   color: white;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background: url(../img/glasses-orig.jpg);
 }
