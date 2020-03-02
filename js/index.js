@@ -1,9 +1,7 @@
-const titleAnimation = () => {
-  ityped.init(document.querySelector("#ityped"), {
-    showCursor: false,
-    strings: ["Suichu Megane"],
-    loop: false
-  });
-}
-
-setTimeout(titleAnimation, 500);
+ityped.init(document.querySelector("#ityped"), {
+  showCursor: false,
+  strings: ["Suichu Megane"],
+  startDelay: 0,
+  typeSpeed: 140,
+  loop: false
+});
