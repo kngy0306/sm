@@ -11,6 +11,10 @@ body {
   position: relative;
 }
 
+textarea {
+  resize: none;
+}
+
 .main {
   border-radius: 20px;
   background-color: white;

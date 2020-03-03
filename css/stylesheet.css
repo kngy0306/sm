@@ -35,6 +35,7 @@ body {
 .about {
   position: relative;
   width: 600px;
+  padding-left: 20px;
 }
 
 .about nav {
