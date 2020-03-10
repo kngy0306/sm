@@ -12,12 +12,15 @@ body {
 }
 
 .main {
-  border-radius: 20px;
+  position: relative;
+  margin: 10px;
+  border-radius: 10px;
   background-color: white;
   display: flex;
   max-width: 1200px;
-  height: 100vh;
-  margin: 0 auto;
+  height: 94vh;
+  top: 3vh;
+  margin: auto;
   overflow: hidden;
 }
 
@@ -79,7 +82,7 @@ body {
 
 .disc {
   position: absolute;
-  top: 400px;
+  top: 350px;
 }
 
 .name {
@@ -93,10 +96,17 @@ body {
   cursor: pointer;
 }
 
+.span {
+  letter-spacing: 3px;
+}
+.space {
+  margin-left: 210px;
+}
+
 footer {
   position: absolute; /* body relative */
-  bottom: 0;
-  right: 0;
+  bottom: 2px;
+  right: 9px;
 }
 
 footer a {

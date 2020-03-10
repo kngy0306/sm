@@ -1,7 +1,7 @@
 ityped.init(document.querySelector("#ityped"), {
   showCursor: false,
   strings: ["Suichu Megane"],
-  startDelay: 0,
+  startDelay: 1000,
   typeSpeed: 140,
   loop: false
 });

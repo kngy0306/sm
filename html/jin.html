@@ -3,9 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>睡中メガネ</title>
+  <title>睡中メガネ : official site</title>
+  <link rel="stylesheet" href="../css/member.css">
 </head>
 <body>
-  jinのページ
+  <div class="main">
+    <div class="img">
+      <img src="../img/jin.jpg" id="logo">
+    </div>
+    <div class="about">
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./jin.html">Member</a>
+        <a href="#">Songs</a>
+      </nav>
+      <div class="disc">
+        <h2>Jin</h2>
+        <p>睡中メガネのギター、作曲担当</p>
+      </div>
+      <div class="next" onclick="nextPage()">
+        <img src="../img/tommy.jpg" class="circle-logo">
+        <img src="../img/allow.png" class="allow">
+      </div>
+    </div>
+  </div>
+  <script>
+    nextPage = () => {
+      document.location.href = "./hotaru.html";
+    }
+  </script>
 </body>
 </html>

@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Corben", cursive;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+}
+
+.main {
+  position: relative;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  max-width: 1200px;
+  height: 94vh;
+  top: 3vh;
+  margin: auto;
+  overflow: hidden;
+}
+
+.img {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  width: 600px;
+}
+
+.about {
+  position: relative;
+  width: 600px;
+  padding-left: 20px;
+}
+
+.about nav {
+  position: absolute;
+  top: 50px;
+}
+
+.about nav a{
+  font-size: 2em;
+  position: relative;
+  display: inline-block;
+  transition: .3s;
+  margin-right: 50px;
+  color: rgb(141, 149, 156);
+}
+
+.about nav a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: #00cec9;
+  transition: .3s;
+}
+
+.about nav a:hover {
+  color: #00cec9;
+}
+
+.about nav a:hover::after {
+  width: 100%;
+}
+
+.title {
+  font-size: 5em;
+  position: absolute;
+  top: 200px;
+}
+
+.disc {
+  position: absolute;
+  top: 200px;
+}
+
+.next {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  width: 200px;
+  height: 110px;
+  background-color: #dbe6e5;
+  border-radius: 20px;
+}
+
+.next .circle-logo {
+  margin: 5px 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.next .allow {
+  float: right;
+    width: 50px;
+    margin: 30px 10px 0 0;
+}
+
+.next:hover {
+  cursor: pointer;
+}
