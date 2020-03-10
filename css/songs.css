@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Corben", cursive;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+}
+
+.main {
+  position: relative;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  max-width: 1200px;
+  height: 94vh;
+  top: 3vh;
+  margin: auto;
+  overflow: hidden;
+}
+
+.about {
+  position: relative;
+  width: 600px;
+  padding-left: 20px;
+}
+
+.about nav {
+  position: absolute;
+  top: 50px;
+}
+
+.about nav a {
+  font-size: 2em;
+  position: relative;
+  display: inline-block;
+  transition: 0.3s;
+  margin-right: 50px;
+  color: rgb(141, 149, 156);
+}
+
+.about nav a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #00cec9;
+  transition: 0.3s;
+}
+
+.about nav a:hover {
+  color: #00cec9;
+}
+
+.about nav a:hover::after {
+  width: 100%;
+}
+
+.cs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-size: 6.5em;
+}
