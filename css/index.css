@@ -12,15 +12,15 @@ body {
 }
 
 .main {
+  transition: all .2s;
   position: relative;
-  margin: 10px;
   border-radius: 10px;
   background-color: white;
   display: flex;
   max-width: 1200px;
   height: 94vh;
   top: 3vh;
-  margin: auto;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -77,12 +77,13 @@ body {
 .title {
   font-size: 5em;
   position: absolute;
-  top: 200px;
+  top: 150px;
 }
 
 .disc {
+  font-size: 1.2em;
   position: absolute;
-  top: 350px;
+  top: 300px;
 }
 
 .name {
@@ -115,4 +116,56 @@ footer a {
 }
 footer a:hover {
   color: #8a35b1;
+}
+
+
+@media screen and (max-width:1200px) {
+  .main {
+    transform: scale(.9);
+  }
+  .space {
+    margin-left: 25%;
+  }
+  .title {
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .img {
+    display: none;
+  }
+  .main {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .main {
+    top: 0;
+    height: 100%;
+    overflow: auto;
+  }
+  .about {
+    padding: 0;
+  }
+  .about nav {
+    top: 0;
+    width: 100%;
+  }
+  .about nav a {
+    margin: 20px 15px 0 0;
+  }
+  .title {
+    font-size: 3em;
+  }
+  .disc {
+    position: relative;
+  }
+  .disc h3 {
+    font-size: 1em;
+  }
+  footer {
+    display: none;
+  }
 }
