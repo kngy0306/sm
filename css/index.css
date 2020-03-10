@@ -63,7 +63,7 @@ body {
   width: 0;
   height: 2px;
   background-color: #00cec9;
-  transition: .3s;
+  transition: .15s;
 }
 
 .about nav a:hover {
@@ -142,12 +142,11 @@ footer a:hover {
 
 @media screen and (max-width:500px) {
   * {
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Pacifico', cursive;
   }
   .main {
     top: 0;
     height: 100%;
-    overflow: auto;
   }
   .about {
     padding: 0;
@@ -166,7 +165,7 @@ footer a:hover {
     position: relative;
   }
   .disc h3 {
-    font-size: 1em;
+    font-size: .9em;
   }
   footer {
     display: none;
