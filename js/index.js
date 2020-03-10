@@ -1,7 +1,16 @@
+wow = new WOW(
+  {
+    boxClass: 'wow', // default
+    animateClass: 'animated', // default
+    offset: 0// アニメーションをスタートさせる距離
+  }
+);
+wow.init();
+
 ityped.init(document.querySelector("#ityped"), {
   showCursor: false,
   strings: ["Suichu Megane"],
-  startDelay: 1000,
+  startDelay: 500,
   typeSpeed: 140,
   loop: false
 });

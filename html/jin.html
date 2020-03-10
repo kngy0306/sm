@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>睡中メガネ : official site</title>
   <link rel="stylesheet" href="../css/member.css">
+
+  <link rel="stylesheet" href="../js/wow.js/css/animate.css">
+  <link rel="stylesheet" href="../js/wow.js/css/site.css">
 </head>
+
 <body>
   <div class="main">
     <div class="img">
@@ -18,19 +23,31 @@
         <a href="#">Songs</a>
       </nav>
       <div class="disc">
-        <h2>Jin</h2>
-        <p>睡中メガネのギター、作曲担当</p>
+        <h1 class="wow fadeInRight">Jin</h1>
+        <br>
+        <h3 class="wow fadeInLeft" data-wow-delay="1s">睡中メガネのギター、作曲担当</h3>
       </div>
-      <div class="next" onclick="nextPage()">
+      <div class="next wow bounce" data-wow-duration="5s"data-wow-iteration="infinite" onclick="nextPage()">
         <img src="../img/tommy.jpg" class="circle-logo">
         <img src="../img/allow.png" class="allow">
       </div>
     </div>
   </div>
+  <script src="../js/wow.js/dist/wow.min.js"></script>
   <script>
     nextPage = () => {
       document.location.href = "./hotaru.html";
     }
+
+    wow = new WOW(
+      {
+        boxClass: 'wow', // default
+        animateClass: 'animated', // default
+        offset: 0// アニメーションをスタートさせる距離
+      }
+    );
+    wow.init();
   </script>
 </body>
+
 </html>

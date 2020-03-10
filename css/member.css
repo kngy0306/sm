@@ -42,11 +42,11 @@ body {
   top: 50px;
 }
 
-.about nav a{
+.about nav a {
   font-size: 2em;
   position: relative;
   display: inline-block;
-  transition: .3s;
+  transition: 0.3s;
   margin-right: 50px;
   color: rgb(141, 149, 156);
 }
@@ -55,11 +55,11 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  content: '';
+  content: "";
   width: 0;
   height: 2px;
   background-color: #00cec9;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .about nav a:hover {
@@ -82,9 +82,11 @@ body {
 }
 
 .next {
+  transition: all .2s;
+  opacity: .6;
   position: absolute;
   bottom: 50px;
-  right: 0;
+  right: 10px;
   width: 200px;
   height: 110px;
   background-color: #dbe6e5;
@@ -100,10 +102,11 @@ body {
 
 .next .allow {
   float: right;
-    width: 50px;
-    margin: 30px 10px 0 0;
+  width: 30px;
+  margin: 40px 20px 0 0;
 }
 
 .next:hover {
   cursor: pointer;
+  opacity: 1;
 }
