@@ -141,6 +141,9 @@ footer a:hover {
 }
 
 @media screen and (max-width:500px) {
+  * {
+    font-family: 'Noto Serif JP', serif;
+  }
   .main {
     top: 0;
     height: 100%;
