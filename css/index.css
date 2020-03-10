@@ -143,7 +143,6 @@ footer a:hover {
 @media screen and (max-width:500px) {
   * {
     font-family: 'Pacifico', cursive;
-    overflow: scroll;
   }
   .main {
     top: 0;
