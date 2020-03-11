@@ -145,9 +145,11 @@ footer a:hover {
   body::before {
     display: block;
     width: 100%;
-    height: 120%;
+    height: 100%;
+    /* height: 120%; */
     content: " ";
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     background: url(../img/mobile.jpg);
     background-repeat: no-repeat;
     background-position: top center;
@@ -174,6 +176,7 @@ footer a:hover {
   }
   .disc {
     position: relative;
+    margin-bottom: 100px;
   }
   .disc h3 {
     font-size: 0.9em;
