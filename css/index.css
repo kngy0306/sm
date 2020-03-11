@@ -148,11 +148,10 @@ footer a:hover {
     height: 120%;
     content: " ";
     position: absolute;
-    background: url(../img/sm-logo.jpg);
+    background: url(../img/mobile.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    background-attachment: fixed;
-    opacity: 0.1;
+    opacity: .1;
     z-index: -1;
   }
 
@@ -168,7 +167,7 @@ footer a:hover {
     width: 100%;
   }
   .about nav a {
-    margin: 20px 15px 0 0;
+    margin: 20px 28px 0 0;
   }
   .title {
     font-size: 3em;
