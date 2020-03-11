@@ -140,12 +140,12 @@ footer a:hover {
 
 @media screen and (max-width: 500px) {
   * {
-    font-family: "Pacifico", cursive;
+    font-family: 'Acme', sans-serif;
   }
   body::before {
     display: block;
     width: 100%;
-    height: 120%;
+    height: 100%;
     /* height: 120%; */
     content: " ";
     /* position: absolute; */
@@ -169,12 +169,13 @@ footer a:hover {
     width: 100%;
   }
   .about nav a {
-    margin: 20px 23px 0 0;
+    margin: 20px 28px 0 0;
   }
   .title {
-    font-size: 3em;
+    font-size: 3.7em;
   }
   .disc {
+    font-family: 'Noto Serif JP', serif;
     position: relative;
     margin-bottom: 50px;
   }
