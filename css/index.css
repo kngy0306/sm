@@ -62,7 +62,7 @@ body {
   width: 0;
   height: 2px;
   background-color: #00cec9;
-  transition: 0.15s;
+  transition: .15s;
 }
 
 .about nav a:hover {
@@ -118,7 +118,13 @@ footer a:hover {
 }
 
 @media screen and (max-width: 1200px) {
+  * {
+    font-family: 'Acme', sans-serif;
+  }
+  
   .main {
+    top: 0;
+    background-color: rgba(255, 255, 255, 0);
     transform: scale(0.9);
   }
   .title {
@@ -127,6 +133,19 @@ footer a:hover {
 }
 
 @media screen and (max-width: 1000px) {
+  body::before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    background: url(../img/mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    opacity: .1;
+    z-index: -1;
+  }
   .img {
     display: none;
   }
@@ -136,28 +155,23 @@ footer a:hover {
 }
 
 @media screen and (max-width: 500px) {
-  * {
-    font-family: 'Acme', sans-serif;
-  }
-  body::before {
+  /* body::before {
     display: block;
     width: 100%;
     height: 100%;
-    /* height: 120%; */
-    content: " ";
-    /* position: absolute; */
+    content: "";
     position: absolute;
     background: url(../img/mobile.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     opacity: .1;
     z-index: -1;
-  }
+  } */
 
-  .main {
+  /* .main {
     top: 0;
     background-color: rgba(255, 255, 255, 0);
-  }
+  } */
   .about {
     padding: 0;
   }
