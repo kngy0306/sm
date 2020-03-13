@@ -82,8 +82,8 @@ body {
 }
 
 .next {
-  transition: all .2s;
-  opacity: .6;
+  transition: all 0.2s;
+  opacity: 0.6;
   position: absolute;
   bottom: 50px;
   right: 10px;
@@ -134,7 +134,7 @@ body {
 
 @media screen and (max-width: 500px) {
   * {
-    font-family: 'Acme', sans-serif;
+    font-family: "Acme", sans-serif;
   }
 
   body::before {
@@ -146,7 +146,7 @@ body {
     background: url(../img/jin.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    opacity: .1;
+    opacity: 0.1;
     z-index: -1;
   }
 
@@ -165,7 +165,10 @@ body {
   .about nav a {
     margin: 20px 28px 0 0;
   }
-.next {
-  bottom: 0;
-}
+  .next {
+    bottom: 50px;
+  }
+  .disc {
+    top: 150px;
+  }
 }
