@@ -83,6 +83,7 @@ body {
   font-size: 1.2em;
   position: absolute;
   top: 300px;
+  font-family: 'Noto Serif JP', serif;
 }
 
 .name {
@@ -121,7 +122,6 @@ footer a:hover {
   * {
     font-family: 'Acme', sans-serif;
   }
-  
   .main {
     top: 0;
     background-color: rgba(255, 255, 255, 0);
@@ -155,23 +155,6 @@ footer a:hover {
 }
 
 @media screen and (max-width: 500px) {
-  /* body::before {
-    display: block;
-    width: 100%;
-    height: 100%;
-    content: "";
-    position: absolute;
-    background: url(../img/mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    opacity: .1;
-    z-index: -1;
-  } */
-
-  /* .main {
-    top: 0;
-    background-color: rgba(255, 255, 255, 0);
-  } */
   .about {
     padding: 0;
   }
@@ -186,7 +169,6 @@ footer a:hover {
     font-size: 3.7em;
   }
   .disc {
-    font-family: 'Noto Serif JP', serif;
     position: relative;
     margin-bottom: 50px;
   }

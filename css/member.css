@@ -79,6 +79,7 @@ body {
 .disc {
   position: absolute;
   top: 200px;
+  font-family: 'Noto Serif JP', serif;
 }
 
 .next {
@@ -112,8 +113,13 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
+  * {
+    font-family: "Acme", sans-serif;
+  }
   .main {
     transform: scale(0.9);
+    top: 0;
+    background-color: rgba(255, 255, 255, 0);
   }
   .space {
     margin-left: 25%;
@@ -124,19 +130,6 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-  .img {
-    display: none;
-  }
-  .main {
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  * {
-    font-family: "Acme", sans-serif;
-  }
-
   body::before {
     display: block;
     width: 100%;
@@ -146,15 +139,19 @@ body {
     background: url(../img/jin.jpg);
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: cover;
     opacity: 0.1;
     z-index: -1;
   }
-
-  .main {
-    top: 0;
-    background-color: rgba(255, 255, 255, 0);
+  .img {
+    display: none;
   }
+  .main {
+    justify-content: center;
+  }
+}
 
+@media screen and (max-width: 500px) {
   .about {
     padding: 0;
   }
@@ -169,7 +166,6 @@ body {
     bottom: 50px;
   }
   .disc {
-    font-family: 'Noto Serif JP', serif;
     top: 150px;
   }
 }
