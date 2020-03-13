@@ -121,9 +121,6 @@ footer a:hover {
   .main {
     transform: scale(0.9);
   }
-  .space {
-    margin-left: 25%;
-  }
   .title {
     font-size: 4em;
   }
