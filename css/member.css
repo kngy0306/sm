@@ -169,6 +169,7 @@ body {
     bottom: 50px;
   }
   .disc {
+    font-family: 'Noto Serif JP', serif;
     top: 150px;
   }
 }

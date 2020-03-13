@@ -99,6 +99,7 @@ body {
     margin: 20px 28px 0 0;
   }
   .disc {
+    font-family: 'Noto Serif JP', serif;
     top: 150px;
   }
   .disc h1 {
