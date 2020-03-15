@@ -17,19 +17,19 @@ ityped.init(document.querySelector("#ityped"), {
 
 const jin = document.getElementById('jin');
 const hotaru = document.getElementById('hotaru');
-const logo = document.getElementById('logo');
-
+const hotaru_mono = document.getElementById('hotaru_mono');
+const jin_mono = document.getElementById('jin_mono');
 
 jin.addEventListener('mouseenter', () => {
-  logo.style.transform = "translateX(-180px)";
+  hotaru_mono.style.display = "block";
 }, false);
 jin.addEventListener('mouseleave', () => {
-  logo.style.transform = "translateX(0)";
+  hotaru_mono.style.display = "none";
 }, false);
 
 hotaru.addEventListener('mouseenter', () => {
-  logo.style.transform = "translateX(205px)";
+  jin_mono.style.display = "block";
 }, false);
 hotaru.addEventListener('mouseleave', () => {
-  logo.style.transform = "translateX(0)";
+  jin_mono.style.display = "none";
 }, false);
