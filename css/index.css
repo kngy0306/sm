@@ -75,7 +75,7 @@ body {
   width: 0;
   height: 2px;
   background-color: #00cec9;
-  transition: .15s;
+  transition: 0.15s;
 }
 
 .about nav a:hover {
@@ -96,7 +96,7 @@ body {
   font-size: 1.2em;
   position: absolute;
   top: 300px;
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
 }
 
 .name {
@@ -118,8 +118,8 @@ body {
 }
 
 footer {
-  position: absolute; /* body relative */
-  bottom: 2px;
+  position: fixed; /* body relative */
+  bottom: 5px;
   right: 9px;
 }
 
@@ -133,7 +133,7 @@ footer a:hover {
 
 @media screen and (max-width: 1200px) {
   * {
-    font-family: 'Acme', sans-serif;
+    font-family: "Acme", sans-serif;
   }
   .main {
     top: 0;
@@ -156,7 +156,7 @@ footer a:hover {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    opacity: .1;
+    opacity: 0.1;
     z-index: -1;
   }
   .img {
@@ -165,9 +165,9 @@ footer a:hover {
   .main {
     justify-content: center;
   }
-  footer {
+  /* footer {
     display: none;
-  }
+  } */
 }
 
 @media screen and (max-width: 500px) {
